@@ -17,6 +17,9 @@
 			desc = trait_slave_character_desc
 		}
 	}
+
+	birth = 0
+	random_creation_weight = 0
 }
 
 mamluk = {
@@ -37,4 +40,7 @@ mamluk = {
 			desc = trait_mamluk_character_desc
 		}
 	}
+
+	birth = 0
+	random_creation_weight = 0
 }
