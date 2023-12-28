@@ -1,12 +1,6 @@
 ﻿on_game_start = {
-    on_action = { ogs_mamluk_system_core_installed }
-}
-
-ogs_mamluk_system_core_installed = {
-    effect = {
-		set_global_variable = {
-			name = mamluk_system_core_installed
-			value = yes
-		}
-    }
+    events = {
+		# core installed
+		mamluk_system_core.0001
+	}
 }

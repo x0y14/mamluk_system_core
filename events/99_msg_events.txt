@@ -1,0 +1,13 @@
+﻿namespace = mamluk_system_core
+
+mamluk_system_core.0001 = {
+	hidden = yes
+	scope = none
+	
+	immediate = {
+		set_global_variable = {
+			name = mamluk_system_core_installed
+			value = yes
+		}
+	}
+}
